@@ -9,7 +9,9 @@
 
 ## 🖼️ Preview
 
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f5efb0b7-5473-4585-a868-34d151b1267b" alt="Screenshot 1" width="500"/>
+</div>
 
 ---
 
