@@ -10,5 +10,6 @@
 .app {
   display: grid;
   min-height: 100vh;
-  background-color: #e0e8f8;
+  background-image: url('./assets/Fondo paw Patrol.jpeg');
+  background-size: cover;
 }

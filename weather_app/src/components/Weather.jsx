@@ -38,10 +38,16 @@ const Weather = () => {
         }
 
         try {
-            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${import.meta.env.VITE_APP_ID}`;
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=dc6b07a4b205ec08b7124e98bbec5475`;
 
             const response = await fetch(url);
             const data = await response.json();
+
+            if(!response.ok) {
+                alert(data.message);
+                return;
+            }
+
             console.log(data);
             const icon = allIcons[data.weather[0].icon] || clear_icon;
             setweatherData({
